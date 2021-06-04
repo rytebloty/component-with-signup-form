@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+// ;
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+$Blue: hsl(248, 32%, 49%);
+$DarkBlue: hsl(249, 10%, 26%);
+$GrayishBlue: hsl(246, 25%, 77%);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 100vh;
+  background: url(images/bg-intro-mobile.png) $Red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  margin: 0 1rem 0 1rem;
+  text-align: center;
+  h2 {
+    background-color: $Blue;
+    padding: 3rem 1rem 3rem 1rem;
+    border-radius: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    b {
+      font-weight: 600;
+    }
+  }
+  .form {
+    background-color: white;
+    padding: 2rem;
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      label {
+        color: $DarkBlue;
+      }
+      input {
+        padding: 1rem;
+        margin: 0.1rem;
+        border: 0.1rem solid $GrayishBlue;
+      }
+    }
+  }
+  footer {
+    color: $GrayishBlue;
+  }
+}

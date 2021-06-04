@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 100vh;
+  background: url(images/bg-intro-mobile.png) #ff7a7a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  margin: 0 1rem 0 1rem;
+  text-align: center;
+}
+
+.wrapper h2 {
+  background-color: #6055a5;
+  padding: 3rem 1rem 3rem 1rem;
+  border-radius: 1rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.wrapper h2 b {
+  font-weight: 600;
+}
+
+.wrapper .form {
+  background-color: white;
+  padding: 2rem;
+}
+
+.wrapper .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .form form label {
+  color: #3e3c49;
+}
+
+.wrapper .form form input {
+  padding: 1rem;
+  margin: 0.1rem;
+  border: 0.1rem solid #b9b6d3;
+}
+
+.wrapper footer {
+  color: #b9b6d3;
+}
+/*# sourceMappingURL=style.css.map */
